@@ -1,3 +1,5 @@
+
+# Calculate the the result based on the value of a, b and the operations given
 def testResult(symbolOne, symbolTwo, a, b):
     firstOperation = OperationOne(symbolOne, a,b)
     secondOperation = OperationSecond(symbolTwo, firstOperation)
@@ -23,7 +25,7 @@ def OperationSecond(symbol, a):
     elif symbol == "/":
         return a / 2
     
-
+# Find possible values of A that does not meet the testing objective in a range
 def PossibleValues(rangeValue):
     b = 1
     possibleOperator = ["+", "-", "*", "/"]
